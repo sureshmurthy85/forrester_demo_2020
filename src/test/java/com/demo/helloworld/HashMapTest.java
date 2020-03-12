@@ -1,7 +1,7 @@
 
-// HashValueMapTest.java --
+// HashMapTest.java --
 //
-// HashValueMapTest.java is part of CloudBees Flow.
+// HashMapTest.java is part of CloudBees Flow.
 //
 // Copyright (c) 2020 CloudBees, Inc.
 // All rights reserved.
@@ -9,7 +9,6 @@
 
 package com.demo.helloworld;
 
-import org.jetbrains.annotations.NonNls;
 import org.junit.Test;
 
 import java.util.Collections;
@@ -23,9 +22,9 @@ public class HashMapTest
 
     //~ Static fields/initializers ---------------------------------------------
 
-    @NonNls private static final Object VALUE1  = "value1";
-    @NonNls private static final Object VALUE2  = "value2";
-    @NonNls private static final String COMMAND = "command";
+    private static final Object VALUE1  = "value1";
+    private static final Object VALUE2  = "value2";
+    private static final String COMMAND = "command";
 
     //~ Instance fields --------------------------------------------------------
 
