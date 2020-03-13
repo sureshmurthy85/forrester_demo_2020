@@ -20,4 +20,10 @@ mvn clean install
 java -jar target/helloworld-1.0-SNAPSHOT.jar
 ```
 
-Adding comment for Forrester Demo
+- How to setup Jenkins Webhook
+```
+1. Register Jenkins server with GitHub - https://embeddedartistry.com/blog/2017/12/21/jenkins-kick-off-a-ci-build-with-github-push-notifications/
+2. Enable the options on Jenkins Pipeline
+  a. GitHub project [provide the github repository url e.g. https://github.com/sureshmurthy85/forrester_demo_2020.git/]
+  b. Under Built Triggers enable - GitHub hook trigger for GITScm polling
+```
