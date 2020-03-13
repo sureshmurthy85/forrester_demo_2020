@@ -20,4 +20,4 @@ mvn clean install
 java -jar target/helloworld-1.0-SNAPSHOT.jar
 ```
 
-Adding comment for Forrester Demo #4
+Adding comment for Forrester Demo
