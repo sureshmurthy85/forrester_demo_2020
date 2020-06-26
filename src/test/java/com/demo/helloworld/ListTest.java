@@ -44,7 +44,7 @@ public class ListTest
         assertTrue(m_list.contains("katie"));
     }
 
-    @Test public void ignored_test()
+    @Test public void pass_test()
     {
         assertFalse(m_list.contains("mickey"));
     }
