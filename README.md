@@ -28,4 +28,4 @@ java -jar target/helloworld-1.0-SNAPSHOT.jar
   b. Under Built Triggers enable - GitHub hook trigger for GITScm polling
 ````
 
-Editing readme file
+Read Me
