@@ -51,7 +51,7 @@ public class ListTest
 
     @Test public void failed_test()
     {
-        assertFalse(m_list.contains("invalid_user"));
+        assertFalse(m_list.contains("invalid_user2"));
     }
 
     @Test public void missing()
