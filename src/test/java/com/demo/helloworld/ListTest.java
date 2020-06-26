@@ -44,9 +44,14 @@ public class ListTest
         assertTrue(m_list.contains("katie"));
     }
 
-    @Ignore @Test public void ignored_test()
+    @Test public void ignored_test()
     {
-        assertFalse(m_list.contains("matthew"));
+        assertFalse(m_list.contains("mickey"));
+    }
+
+    @Test public void failed_test()
+    {
+        assertTrue(m_list.contains("invalid_user"));
     }
 
     @Test public void missing()
